@@ -12,14 +12,26 @@
 
 }
 
+body {
+
+    height: 100vh;
+
+    background: url(../Imagens/back.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
 menu {
 
     width: 100vw;
     height: 30vh;
 
     /*background-image: linear-gradient(180deg, rgb(31, 21, 168) 0%, rgb(36, 74, 180) 35%, rgba(2,113,215,1) 100%);*/
-    background-image: linear-gradient(180deg, rgb(28, 28, 56) 0%, rgb(18, 18, 41) 35%, rgb(16, 16, 41) 100%);
 
+    background-image: linear-gradient(180deg, rgb(28, 28, 56) 0%, rgb(18, 18, 41) 35%, rgb(16, 16, 41) 100%);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.185);
+    text-shadow: 2px 4px rgba(10, 10, 27, 0.164);
     color: white;
     text-align: center;
 
@@ -34,6 +46,8 @@ menu > h1 {
 
 menu > h2 {
 
+    color: orange;
+    text-shadow: 1px 1px rgb(255, 94, 0);
     padding-top: 1vh;
 
 }
@@ -46,7 +60,7 @@ nav {
 
 nav > a {
 
-    padding: 0px 25px;
+    padding: 0px 20px;
 
     background-color: rgba(0, 0, 0, 0);
     color: rgb(226, 226, 226);
@@ -73,12 +87,18 @@ nav > a:hover {
 
 main {
 
-    width: 70vw;
+    width: 80vw;
+    height: 45vh;
 
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     
     background-color: rgb(20, 17, 58);
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: orange;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.76);
     color: white;
 
 }
@@ -94,12 +114,116 @@ main > section {
 
 main h2 {
 
-    margin: 20px
+    color: orange;
+    text-shadow: 1px 1px rgb(255, 94, 0);
+
+    margin: 10px;
+
+}
+
+main > section > p {
+
+    margin-top: 30px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.541);
 
 }
 
 main strong {
 
     color: orange;
+    text-shadow: 1px 1px rgb(255, 94, 0);
+
+}
+
+footer {
+
+    width: 100w; 
+    margin-top: 50px;
+    padding: 10px;
+
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.527);
+    background-color: rgb(20, 17, 58);
+    color: white;
+    text-align: center;
+
+}
+
+footer a {
+
+    color: orange;
+    text-shadow: 1px 1px rgb(255, 94, 0);
+    text-decoration: none;
+
+}
+
+footer a:hover {
+
+    color: orange;
+    text-shadow: 1px 1px rgb(255, 94, 0);
+    font-weight: bold;
+    background-color: rgb(18, 24, 54);
+    text-decoration: underline;
+    border: 2px solid;
+    padding: 3px;
+
+    transition-duration: 0.1s;
+
+}
+
+ul {
+
+    columns: 2;
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+
+div {
+
+    background-color: rgba(14, 12, 41, 0.459);
+    border-radius: 10px;
+
+    max-width: 180px;
+    max-height: 50px;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+ul p {
+
+    display: inline-block;
+    font-size: 0.5em;
+    text-indent: 3px;
+    line-height: 10px;
+    text-align: left;
+
+
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+
+}
+
+img {
+
+    min-width: 50px;
+    max-width: 50px;
+
+    min-height: 50px;
+    max-height: 50px;
+
+}
+
+div:hover {
+
+    background-color: rgba(7, 6, 20, 0.459);
+    box-shadow: 1px 4px 4px rgb(5, 4, 17);
+    font-weight: bold;
+
+    width: 185px;
+    padding: 5px 0px;
+
+    transition-duration: 0.25s;    
 
 }
