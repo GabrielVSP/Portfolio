@@ -85,7 +85,7 @@ nav > a:hover {
 main {
 
     width: 80vw;
-    height: 45vh;
+    height: 40vh;
 
     margin: auto;
     margin-top: 30px;
@@ -115,6 +115,7 @@ main h2 {
     text-shadow: 1px 1px rgb(255, 94, 0);
 
     margin: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -136,6 +137,12 @@ main#habs {
 
     width: 90vw;
     height: 52vh;
+
+}
+
+main#habs h2 {
+
+    margin-bottom: 0px;
 
 }
 
@@ -179,6 +186,12 @@ ul {
     columns: 2;
     list-style-type: none;
     list-style-position: inside;
+
+}
+
+section#Games {
+
+    display: none;
 
 }
 
@@ -257,6 +270,52 @@ main > section > ul div:hover {
 
     width: 185px;
     height: 60px;
+
+    transition-duration: 0.25s;    
+
+}
+
+div#cont {
+
+    margin: 30px 10px;
+
+    text-align: center;
+
+}
+
+div#cont > a {
+
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+div#cont > p {
+
+    padding: 5px;
+    margin: 10px 0px;
+
+    font-size: 1.2em;
+
+}
+
+div#cont img {
+    
+    width: 60px;
+
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+div#cont img:hover {
+    
+    width: 80px;
+    height: 70px;
+
+    border-radius: 50%;
+    border: 2px dashed white;
 
     transition-duration: 0.25s;    
 
