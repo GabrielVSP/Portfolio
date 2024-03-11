@@ -10,7 +10,7 @@ export default function Skills() {
 
                 <section className="flex justify-between items-center flex-col">
 
-                    <section className="border-b-2 my-2 w-1/4 shadow-lg border-licorice">
+                    <section className="border-b-2 p-1 my-2 w-11/12 shadow-lg border-licorice">
 
                         <h3 className="text-2xl mb-2 text-amber-400 text-center">Languages</h3>
 
@@ -37,31 +37,31 @@ export default function Skills() {
 
                     </section>
 
-                    <section className="border-b-2 my-2 w-1/4 shadow-lg border-licorice">
+                    <section className="border-b-2 p-1 my-2 w-11/12 shadow-lg border-licorice">
 
                         <h3 className="text-2xl mb-2 text-amber-400 text-center">Frameworks and Libs</h3>
 
-                        <ul className="list-disc list-inside px-3">
-                            <li>ReactJS</li>
-                            <li>Laravel</li>
-                            <li>Jest</li>
-                            <li>JQuery</li>
-                            <li>TailwindCSS</li>
-                            <li>Bootstrap</li>
+                        <ul className="list-inside px-3 grid justify-center justify-items-center items-center content-center gap-2" style={{'gridTemplateRows': 'repeat(3, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}>
+                            <li className="border-b-2 border-y-sky-600">ReactJS</li>
+                            <li className="border-b-2 border-red-700">Laravel</li>
+                            <li className="border-b-2 border-red-500">Jest</li>
+                            <li className="border-b-2 border-blue-900">JQuery</li>
+                            <li className="border-b-2 border-cyan-500">TailwindCSS</li>
+                            <li className="border-b-2 border-purple-600">Bootstrap</li>
                         </ul>
 
                     </section>
 
-                    <section className="border-b-2 my-2 w-1/4 shadow-lg border-licorice">
+                    <section className="border-b-2 p-1 my-2 w-11/12 shadow-lg border-licorice">
 
                         <h3 className="text-2xl mb-2 text-amber-400 text-center">Others</h3>
 
-                        <ul className="list-disc list-inside px-3">
-                            <li>VS Code</li>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                            <li>Firebase</li>
-                            <li>Sass</li>
+                        <ul className="list-inside px-3 grid justify-center justify-items-center items-center content-center gap-2" style={{'gridTemplateRows': 'repeat(3, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}>
+                            <li className="border-b-2 border-blue-800">VSCode</li>
+                            <li className="border-b-2 border-gray-800">Git</li>
+                            <li className="border-b-2 border-amber-700">GitHub</li>
+                            <li className="border-b-2 border-amber-500">Firebase</li>
+                            <li className="border-b-2 border-pink-800">Sass</li>
                         </ul>
 
                     </section>
