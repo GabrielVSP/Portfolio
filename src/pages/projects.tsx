@@ -1,3 +1,11 @@
+import FinanceControl from "../components/projects/financeControl";
+
+import html from "../images/logos/html.png"
+import php from "../images/logos/php.png"
+import js from '../images/logos/js.png'
+import sass from "../images/logos/sass.png"
+import mysql from "../images/logos/mysql.png"
+
 export default function Projects() {
 
     return (
@@ -10,18 +18,7 @@ export default function Projects() {
 
                 <section className="flex">
 
-                    <section className="">
-
-                        <h3>Finance Control</h3>
-                        <div></div>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, veritatis? Eaque, commodi pariatur id sint explicabo cum sunt delectus consequatur nisi odio rem inventore quas quod ullam quos libero hic.</p>
-
-                        <div>
-                            <img src="" alt="" />
-                        </div>
-
-                    </section>
+                    <FinanceControl tech={{php, js, mysql, sass}} />
 
                 </section>
 

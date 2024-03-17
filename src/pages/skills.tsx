@@ -34,7 +34,7 @@ export default function Skills() {
                             <li className="w-1/4 border-b-2 border-orange-400">HTML</li>
                             <li className="w-1/4 border-b-2 border-blue-400">CSS</li>
                             <li className="w-1/4 border-b-2 border-blue-600">TypeScript</li>
-                            <li className="w-1/4 border-b-2 border-orange-600">MySql</li>
+                            <li className="w-1/4 border-b-2 border-orange-600">SQL</li>
                             <li className="w-1/4 border-b-2 border-pink-700">GraphQl</li>
                             <li className="w-1/4 border-b-2 border-purple-900">CSharp</li>
                         </ul>
