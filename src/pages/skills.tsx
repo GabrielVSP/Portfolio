@@ -1,3 +1,5 @@
+import php from "../images/php.png"
+
 export default function Skills() {
 
     return (
@@ -22,17 +24,19 @@ export default function Skills() {
                             align-content: center;
                             gap: 5px 10px;
                             grid-template-rows: repeat(2, 2fr);
-                            grid-template-columns: repeat(4, 1fr); */}
+                            grid-template-columns: repeat(4, 1fr); 
+                            style={{'gridTemplateRows': 'repeat(2, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}
+                            */}
 
-                        <ul className="list-inside px-3 grid justify-center justify-items-center items-center content-center gap-2" style={{'gridTemplateRows': 'repeat(2, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}>
-                            <li className="border-b-2 border-violet-600">PHP</li>
-                            <li className="border-b-2 border-yellow-400">JavaScript</li>
-                            <li className="border-b-2 border-orange-400">HTML</li>
-                            <li className="border-b-2 border-blue-400">CSS</li>
-                            <li className="border-b-2 border-blue-600">TypeScript</li>
-                            <li className="border-b-2 border-orange-600">MySql</li>
-                            <li className="border-b-2 border-pink-700">GraphQl</li>
-                            <li className="border-b-2 border-purple-900">CSharp</li>
+                        <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4" >
+                            <li className="w-1/4 border-b-2 border-violet-600">PHP</li>
+                            <li className="w-1/4 border-b-2 border-yellow-400">JavaScript</li>
+                            <li className="w-1/4 border-b-2 border-orange-400">HTML</li>
+                            <li className="w-1/4 border-b-2 border-blue-400">CSS</li>
+                            <li className="w-1/4 border-b-2 border-blue-600">TypeScript</li>
+                            <li className="w-1/4 border-b-2 border-orange-600">MySql</li>
+                            <li className="w-1/4 border-b-2 border-pink-700">GraphQl</li>
+                            <li className="w-1/4 border-b-2 border-purple-900">CSharp</li>
                         </ul>
 
                     </section>
@@ -41,13 +45,14 @@ export default function Skills() {
 
                         <h3 className="text-2xl mb-2 text-amber-400 text-center">Frameworks and Libs</h3>
 
-                        <ul className="list-inside px-3 grid justify-center justify-items-center items-center content-center gap-2" style={{'gridTemplateRows': 'repeat(3, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}>
-                            <li className="border-b-2 border-y-sky-600">ReactJS</li>
-                            <li className="border-b-2 border-red-700">Laravel</li>
-                            <li className="border-b-2 border-red-500">Jest</li>
-                            <li className="border-b-2 border-blue-900">JQuery</li>
-                            <li className="border-b-2 border-cyan-500">TailwindCSS</li>
-                            <li className="border-b-2 border-purple-600">Bootstrap</li>
+                        <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4">
+                            <li className="w-1/4 border-b-2 border-y-sky-600">ReactJS</li>
+                            <li className="w-1/4 border-b-2 border-red-700">Laravel</li>
+                            <li className="w-1/4 border-b-2 border-red-500">Jest</li>
+                            <li className="w-1/4 border-b-2 border-blue-900">JQuery</li>
+                            <li className="w-1/4 border-b-2 border-cyan-500">Tailwind</li>
+                            <li className="w-1/4 border-b-2 border-pink-800">Sass</li>
+                            <li className="w-1/4 border-b-2 border-purple-600">Bootstrap</li>
                         </ul>
 
                     </section>
@@ -56,12 +61,12 @@ export default function Skills() {
 
                         <h3 className="text-2xl mb-2 text-amber-400 text-center">Others</h3>
 
-                        <ul className="list-inside px-3 grid justify-center justify-items-center items-center content-center gap-2" style={{'gridTemplateRows': 'repeat(3, 2fr)', 'gridTemplateColumns': 'repeat(4, 1fr)'}}>
-                            <li className="border-b-2 border-blue-800">VSCode</li>
-                            <li className="border-b-2 border-gray-800">Git</li>
-                            <li className="border-b-2 border-amber-700">GitHub</li>
-                            <li className="border-b-2 border-amber-500">Firebase</li>
-                            <li className="border-b-2 border-pink-800">Sass</li>
+                        <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4">
+                            <li className="w-1/4 border-b-2 border-blue-800">VSCode</li>
+                            <li className="w-1/4 border-b-2 border-gray-800">Git</li>
+                            <li className="w-1/4 border-b-2 border-amber-700">GitHub</li>
+                            <li className="w-1/4 border-b-2 border-amber-500">Firebase</li>
+                            
                         </ul>
 
                     </section>
