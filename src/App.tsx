@@ -11,7 +11,7 @@ import Projects from './pages/projects';
 function App() {
   return (
 
-      <div style={{backgroundImage: `url(${'./images/background.jfif'})`}}>
+      <div className='h-full'>
       
         <Router>
 

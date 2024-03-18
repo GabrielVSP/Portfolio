@@ -10,11 +10,7 @@ export default function Projects() {
 
     return (
 
-        <section className="flex justify-center items-center min-h-3/4 w-full">
-
-            <section className="w-3/4 p-3 bg-dark-purple text-white text-lg rounded-md border-amber-500 border-dashed border-2">
-
-                <h2 className="my-4 text-3xl text-amber-500">My Projects</h2>
+            <section className="flex flex-col p-3 text-white text-lg">
 
                 <section className="flex">
 
@@ -23,8 +19,6 @@ export default function Projects() {
                 </section>
 
             </section>
-
-        </section>
 
     )
 

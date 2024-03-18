@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
 
-        <header className="bg-russian px-2 py-5 mb-10 flex justify-between items-center shadow-2xl opacity-90">
+        <header style={{'height': '12vh'}} className="bg-russian px-2 py-5 flex justify-between items-center shadow-2xl opacity-90">
 
             <h1 className="text-3xl text-amber-400" style={{'textShadow': '1px 1px orange'}}>&lt; GABRIEL /&gt;</h1>
 
