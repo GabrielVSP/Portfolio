@@ -5,6 +5,7 @@ import php from "../images/logos/php.png"
 import js from '../images/logos/js.png'
 import sass from "../images/logos/sass.png"
 import mysql from "../images/logos/mysql.png"
+import Blog from "../components/projects/blog";
 
 export default function Projects() {
 
@@ -12,9 +13,10 @@ export default function Projects() {
 
             <section className="flex flex-col p-3 text-white text-lg">
 
-                <section className="flex">
+                <section className="flex flex-col">
 
                     <FinanceControl tech={{php, js, mysql, sass}} />
+                    <Blog />
 
                 </section>
 
