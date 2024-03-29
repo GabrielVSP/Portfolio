@@ -5,7 +5,9 @@ import php from "../images/logos/php.png"
 import js from '../images/logos/js.png'
 import sass from "../images/logos/sass.png"
 import mysql from "../images/logos/mysql.png"
+
 import Blog from "../components/projects/blog";
+import ChatApp from "../components/projects/chatapp";
 
 export default function Projects() {
 
@@ -17,6 +19,7 @@ export default function Projects() {
 
                     <FinanceControl tech={{php, js, mysql, sass}} />
                     <Blog />
+                    <ChatApp />
 
                 </section>
 
