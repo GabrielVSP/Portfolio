@@ -1,11 +1,10 @@
-import php from "../images/php.png"
 
 export default function Skills() {
 
     return (
 
 
-        <section className="bg-dark-transp-purple flex flex-col p-3 text-white text-lg">
+        <section className="flex flex-col p-3 text-white text-lg">
 
             <section className="flex justify-between items-stretch flex-col">
 
@@ -13,15 +12,15 @@ export default function Skills() {
 
                     <h3 className="text-2xl mb-2 text-amber-400 text-center">Languages</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4" >
-                        <li className="w-1/4 border-b-2 border-violet-600">PHP</li>
-                        <li className="w-1/4 border-b-2 border-yellow-400">JavaScript</li>
-                        <li className="w-1/4 border-b-2 border-orange-400">HTML</li>
-                        <li className="w-1/4 border-b-2 border-blue-400">CSS</li>
-                        <li className="w-1/4 border-b-2 border-blue-600">TypeScript</li>
-                        <li className="w-1/4 border-b-2 border-orange-600">SQL</li>
-                        <li className="w-1/4 border-b-2 border-pink-700">GraphQl</li>
-                        <li className="w-1/4 border-b-2 border-purple-900">CSharp</li>
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px">
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/php.png")} alt="PHP Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/js.png")} alt="JavScript Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/html.png")} alt="HTML Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/css.png")} alt="CSS Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/ts.png")} alt="TypeScript Logo" /></li>
+                        <li className="w-1/3 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/sql.png")} alt="SQL Logo" /></li>
+                        <li className="w-1/3 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/graphql.png")} alt="GraphQL Logo" /></li>
+                        <li className="w-1/3 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/csharp.png")} alt="Csharp Logo" /></li>
                     </ul>
 
                 </section>
@@ -30,14 +29,14 @@ export default function Skills() {
 
                     <h3 className="text-2xl mb-2 text-amber-400 text-center">Frameworks and Libs</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4">
-                        <li className="w-1/4 border-b-2 border-y-sky-600">ReactJS</li>
-                        <li className="w-1/4 border-b-2 border-red-700">Laravel</li>
-                        <li className="w-1/4 border-b-2 border-red-500">Jest</li>
-                        <li className="w-1/4 border-b-2 border-blue-900">JQuery</li>
-                        <li className="w-1/4 border-b-2 border-cyan-500">Tailwind</li>
-                        <li className="w-1/4 border-b-2 border-pink-800">Sass</li>
-                        <li className="w-1/4 border-b-2 border-purple-600">Bootstrap</li>
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px">
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/react.png")} alt="ReactJS Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/laravel.png")} alt="Laravel Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/jest.png")} alt="Jest Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/jquery.png")} alt="Jquery Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/tailwind.png")} alt="Tailwind Logo" /></li>
+                        <li className="w-1/3 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/sass.png")} alt="Sass Logo" /></li>
+                        <li className="w-1/3 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/bootstrap.png")} alt="Bootstrap Logo" /></li>
                     </ul>
 
                 </section>
@@ -46,12 +45,11 @@ export default function Skills() {
 
                     <h3 className="text-2xl mb-2 text-amber-400 text-center">Others</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-around items-center gap-4">
-                        <li className="w-1/4 border-b-2 border-blue-800">VSCode</li>
-                        <li className="w-1/4 border-b-2 border-gray-800">Git</li>
-                        <li className="w-1/4 border-b-2 border-amber-700">GitHub</li>
-                        <li className="w-1/4 border-b-2 border-amber-500">Firebase</li>
-                        
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px">
+                    <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/vscode.png")} alt="VsCode Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/git.png")} alt="Git Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/github.png")} alt="GitHub Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2"><img src={require("../images/logos/firebase.png")} alt="Firebase Logo" /></li>               
                     </ul>
 
                 </section>

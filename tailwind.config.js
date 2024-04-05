@@ -10,6 +10,7 @@ module.exports = {
         'russian': '#1C113A',
         'dark-purple': '#1C112A',
         'dark-transp-purple': '#1c112ae5',
+        'purp': '#38235d',
         'light-purple': '#311e49',
         'licorice': '#170a26',
         'light-pink': '#e654ff',

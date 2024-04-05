@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./index.css"
-//import background from "./images/background.jfif"
+import "./anim.css"
 
 import Home from './pages/home';
 import Header from './components/header';
@@ -12,7 +12,17 @@ function App() {
   return (
 
       <div className='h-full'>
-      
+
+        <div className='container'>
+          <div className='sky'>
+              <div className='text #CODEVEMBER'></div>
+              <div className='stars'></div>
+              <div className='stars1'></div>
+              <div className='stars2'></div>
+              <div className='shooting-stars'></div>
+          </div>
+        </div>
+
         <Router>
 
           <Header />

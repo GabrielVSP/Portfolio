@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
 
-        <section style={{'height': '88vh'}} className="flex justify-center items-start flex-col p-3 h-full bg-dark-transp-purple text-white text-lg">
+        <section style={{'height': '88vh'}} className="flex justify-center items-start flex-col p-3 h-full bg-dark-transp-purp text-white text-lg">
 
             <section className="w-full md:w-1/2">
 
