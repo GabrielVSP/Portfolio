@@ -13,7 +13,7 @@ export default function Skills() {
                     <h3 className="text-3xl my-3 text-amber-400 text-center">Languages</h3>
 
                     <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1">
-                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2 lg:basis-1/5"><img src={require("../images/logos/php.png")} alt="PHP Logo" /></li>
+                        <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2 lg:basis-1/5"><img title="php" src={require("../images/logos/php.png")} alt="PHP Logo" /></li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2 lg:basis-1/5"><img src={require("../images/logos/js.png")} alt="JavScript Logo" /></li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2 lg:basis-1/5"><img src={require("../images/logos/html.png")} alt="HTML Logo" /></li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center rounded-md p-2 lg:basis-1/5"><img src={require("../images/logos/css.png")} alt="CSS Logo" /></li>
