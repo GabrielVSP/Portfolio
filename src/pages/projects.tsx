@@ -9,7 +9,7 @@ export default function Projects() {
 
             <section className="flex flex-col p-3 text-white text-lg">
 
-                <section className="flex flex-col">
+                <section className="flex flex-col text-xl">
 
                     <FinanceControl />
                     <Blog />
