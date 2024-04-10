@@ -23,22 +23,6 @@ export default function Home() {
                 <p className="my-3 indent-2 leading-7" style={{'textShadow': '1px 1px black'}}>I`ve earned a lot of <strong className="text-amber-400">experience</strong> designing and creating a plenty of projects and helping other people, with non-profit projects. Currently I`m searching for freelance projetcs to gain experience and improve my abilities. </p>
             </section>
 
-            {/* <section className="lg:block md:hidden hidden bg-dark-purple p-3">
-               
-                <h2 className="text-2xl mb-2">Useful Links</h2>
-
-                <div className="flex flex-col">
-                    <Link to="/skills" className="text-amber-400 text-lg p-1 duration-75 border-dashed hover:text-amber-400 hover:text-xl">Skills</Link>
-                    <Link to="/projects" className="text-amber-400 text-lg p-1 duration-75 border-dashed hover:text-amber-400 hover:text-xl">Projects</Link>
-                </div>
-
-                <div>
-                    <a href="#">Linkedin</a>
-                    <a href="#">Github</a>
-                </div>
-
-            </section> */}
-
             <section className="lg:block md:hidden hidden text-amber-400 text-3xl w-1/3 p-3">
                 <Typewriter
                     options={{'loop': true}}
