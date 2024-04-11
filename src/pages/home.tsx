@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
 
-        <section style={{'height': '88vh'}} className="flex justify-between items-center flex-row p-3 h-full bg-dark-transp-purp text-white text-lg">
+        <section style={{'height': '88vh'}} className="flex lg:justify-between justify-evenly items-center lg:flex-row flex-col p-3 h-full bg-dark-transp-purp text-white text-lg">
 
             <section className="w-full lg:w-5/12 md:w-5/6">
 
@@ -23,28 +23,26 @@ export default function Home() {
                 <p className="my-3 indent-2 leading-7" style={{'textShadow': '1px 1px black'}}>I`ve earned a lot of <strong className="text-amber-400">experience</strong> designing and creating a plenty of projects and helping other people, with non-profit projects. Currently I`m searching for freelance projetcs to gain experience and improve my abilities. </p>
             </section>
 
-            <section className="lg:block md:hidden hidden text-amber-400 text-3xl w-1/3 p-3">
-                <Typewriter
-                    options={{'loop': true}}
-                    onInit={(typewriter) => {
-                        typewriter.typeString(text.first)    
-                          .pauseFor(2500)
-                          .deleteAll()
-                          .start()
-                          .typeString(text.second)
-                          .pauseFor(2500)
-                          .deleteAll()
-                          .start()
-                          .typeString(text.third)
-                          .pauseFor(2500)
-                          .deleteAll()
-                          .start()
-                          .typeString(text.fourth)
-                          .pauseFor(2500)
-                          .deleteAll()
-                          .start()
-                      }}
-                />
+            <section className="lg:flex lg:w-1/4 w-8/12 p-3 bg-russian rounded-md shadow-lg">
+                
+                <div>
+
+                    <h2 className="text-amber-400 text-3xl my-3">Contact</h2>
+
+                    <p>You can contact me through: </p>
+
+                    <div className="my-5 w-2/3 flex justify-evenly items-center">
+                        <a href="https://github.com/GabrielVSP/" target="_blank"><img src={require("../images/assets/github.png")} alt="GitHub Logo" className="hover:border border-amber-500 rounded-full border-1" /></a>
+                        <a href="https://www.linkedin.com/in/gabriel-verg%C3%ADlio-77768a28b/" target="_blank"><img src={require("../images/assets/linkedin.png")} alt="Linkedin Logo" className="hover:border border-amber-500 rounded-full border-1" /></a>
+                        <a href="https://wa.me/qr/K4ZYQHFCOG6XL1" target="_blank"><img src={require("../images/assets/wpp.png")} alt="WhatsApp Logo" className="hover:border border-amber-500 rounded-full border-1" /></a>
+                    </div>
+
+                    <p>You can also contact me through email: <strong>gabrielverg134s@gmail.com</strong></p>
+
+                </div>
+
+                <div className="bg-amber-300 w-1/12 rounded-tl-full rounded-br-full"></div>
+
             </section>
             
         </section>
