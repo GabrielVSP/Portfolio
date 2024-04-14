@@ -12,38 +12,38 @@ export default function Skills() {
 
                     <h3 className="text-3xl my-3 text-amber-400 text-center">Languages</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1">
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1" translate="no">
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img title="php" src={require("../images/logos/php.png")} alt="PHP Logo" /> 
-                            <p className="text-lightpink text-lg">PHP</p> 
+                            <p className="text-lightpink text-lg" >PHP</p> 
                         </li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/js.png")} alt="JavaScript Logo" />
-                            <p className="text-lightpink text-lg">JavaScript</p> 
+                            <p className="text-lightpink text-lg" >JavaScript</p> 
                         </li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/html.png")} alt="HTML Logo" />
-                            <p className="text-lightpink text-lg">HTML</p> 
+                            <p className="text-lightpink text-lg" >HTML</p> 
                         </li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/css.png")} alt="CSS Logo" />
-                            <p className="text-lightpink text-lg">CSS</p> 
+                            <p className="text-lightpink text-lg" >CSS</p> 
                         </li>
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/ts.png")} alt="TypeScript Logo" />
-                            <p className="text-lightpink text-lg">TypeScript</p> 
+                            <p className="text-lightpink text-lg" >TypeScript</p> 
                         </li>
                         <li className="w-1/3 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/sql.png")} alt="SQL Logo" />
-                            <p className="text-lightpink text-lg">SQL</p> 
+                            <p className="text-lightpink text-lg" >SQL</p> 
                         </li>
                         <li className="w-1/3 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/graphql.png")} alt="GraphQL Logo" />
-                            <p className="text-lightpink text-lg">GraphQL</p> 
+                            <p className="text-lightpink text-lg" >GraphQL</p> 
                         </li>
                         <li className="w-1/3 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/csharp.png")} alt="Csharp Logo" />
-                            <p className="text-lightpink text-lg">CSharp</p> 
+                            <p className="text-lightpink text-lg" >CSharp</p> 
                         </li>
                     </ul>
 
@@ -53,7 +53,7 @@ export default function Skills() {
 
                     <h3 className="text-3xl my-3 text-amber-400 text-center">Frameworks and Libs</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1">
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1" translate="no">
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/react.png")} alt="ReactJS Logo" />
                             <p className="text-lightpink text-lg">ReactJS</p> 
@@ -90,7 +90,7 @@ export default function Skills() {
 
                     <h3 className="text-3xl my-3 text-amber-400 text-center">Others</h3>
 
-                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1">
+                    <ul className="list-inside px-3 flex flex-wrap justify-center items-center gap-px lg:w-8/12 lg:gap-1" translate="no">
                         <li className="w-1/4 basis-1/4 bg-purp flex justify-center flex-col items-center rounded-md p-2 lg:basis-1/5">
                             <img src={require("../images/logos/vscode.png")} alt="VsCode Logo" />
                             <p className="text-lightpink text-lg">VsCode</p> 
