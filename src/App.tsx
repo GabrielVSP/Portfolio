@@ -28,9 +28,9 @@ function App() {
           <Header />
 
           <Routes>
-            <Route path="/Portofolio" element={<Home />} />
-            <Route path="/Portofolio/skills" element={<Skills />} />
-            <Route path="/Portofolio/projects" element={<Projects />} />
+            <Route path="/Portfolio" element={<Home />} />
+            <Route path="/Portfolio/skills" element={<Skills />} />
+            <Route path="/Portfolio/projects" element={<Projects />} />
           </Routes>
 
         </Router>
