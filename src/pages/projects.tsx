@@ -2,6 +2,7 @@ import FinanceControl from "../components/projects/financeControl";
 
 import Blog from "../components/projects/blog";
 import ChatApp from "../components/projects/chatapp";
+import TimeCounter from "../components/projects/timecounter";
 
 export default function Projects() {
 
@@ -14,6 +15,7 @@ export default function Projects() {
                     <FinanceControl />
                     <Blog />
                     <ChatApp />
+                    <TimeCounter />
 
                 </section>
 
