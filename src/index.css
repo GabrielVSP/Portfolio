@@ -2,17 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.Typewriter__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    font-weight: bold;
-    line-height: 45px;
-}
-
-.Typewriter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
