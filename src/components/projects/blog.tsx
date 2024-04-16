@@ -14,10 +14,10 @@ export default function Blog(props: any) {
             <p>Link: <a className='underline font-bold text-orange-400' href="https://github.com/GabrielVSP/ReactJS/tree/main/Exerc%C3%ADcios/authentication" target='_blank' rel="external">Repository</a></p>
 
             <ul className='my-2 p-1 bg-dark-purple rounded-md list-inside list-disc flex flex-wrap justify-start lg:w-1/2' translate="no">
-                <li className='text-pink-500 basis-1/3'>ReactJS</li>
-                <li className='text-pink-500 basis-1/3'>TypeScript</li>
-                <li className='text-pink-500 basis-1/3'>Firebase</li>
-                <li className='text-pink-500 basis-1/3'>TailwindCSS</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>ReactJS</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>TypeScript</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>Firebase</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>TailwindCSS</li>
             </ul>
 
         </section>

@@ -15,10 +15,10 @@ export default function TimeCounter(props: any) {
             <p>Link: <a className='underline font-bold text-orange-400' href="https://github.com/GabrielVSP/PHPLearn/tree/main/0-Projetos/TimeCounter" target='_blank' rel="external">Repository</a></p>
 
             <ul className='my-2 p-1 bg-dark-purple rounded-md list-inside list-disc flex flex-wrap justify-start lg:w-1/2' translate="no">
-                <li className='text-pink-500 basis-1/3'>PHP</li>
-                <li className='text-pink-500 basis-1/3'>JavaScript</li>
-                <li className='text-pink-500 basis-1/3'>MySql</li>
-                <li className='text-pink-500 basis-1/3'>Tailwind</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>PHP</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>JavaScript</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>MySql</li>
+                <li className='text-pink-500 lg:basis-1/3 basis-1/2'>Tailwind</li>
             </ul>
 
         </section>
