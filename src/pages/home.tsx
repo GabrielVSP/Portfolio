@@ -3,18 +3,11 @@ import Typewriter from 'typewriter-effect'
 
 export default function Home() {
 
-    const text = {
-        'first': "<p>G</p><p>a</p><p>b</p><p>r</p><p>i</p><p>e</p><p>l</p>",
-        'second': "<p>V</p><p>e</p><p>r</p><p>g</p><p>í</p><p>l</p><p>i</p><p>o</p>",
-        'third': "<p>W</p><p>e</p><p>b</p>",
-        'fourth': "<p>D</p><p>e</p><p>v</p><p>e</p><p>l</p><p>o</p><p>p</p><p>e</p><p>r</p>"
-    }
-
     return (
 
         <section style={{'height': '88vh'}} className="flex lg:justify-between justify-evenly items-center lg:flex-row flex-col p-3 h-full bg-dark-transp-purp text-white text-lg">
 
-            <section className="w-full lg:w-5/12 md:w-5/6">
+            <section className="w-full lg:w-5/12 md:w-5/6 text-justify">
 
                 <h2 className="my-6 px-5 text-4xl text-amber-400 title">Full-Stack Web Developer</h2>
 

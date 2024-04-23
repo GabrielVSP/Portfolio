@@ -8,7 +8,7 @@ export default function Projects() {
 
     return (
 
-            <section className="flex flex-col p-3 text-white text-lg">
+            <section className="flex flex-col p-3 text-white text-lg text-justify">
 
                 <section className="flex flex-col text-xl">
 
